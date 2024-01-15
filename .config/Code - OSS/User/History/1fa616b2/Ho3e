@@ -1,0 +1,1 @@
+MONGODB_CONNECTION_STRING=mongodb+srv://admin:<password>@mem-booking-app-db.iiljqf1.mongodb.net/?retryWrites=true&w=majority
