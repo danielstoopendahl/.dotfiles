@@ -34,7 +34,6 @@
     }
   ],
   "vim.highlightedyank.enable": true,
-
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
     // switch b/w buffers
@@ -118,29 +117,28 @@
       ],
       "commands": [
         "workbench.action.toggleSidebarVisibility",
-         "workbench.action.navigateLeft"
+        "workbench.action.navigateLeft"
       ]
     },
-  {
-    "before": [
+    {
+      "before": [
         "leader",
         "r",
         "n"
       ],
-    "commands": [
+      "commands": [
         "editor.action.rename"
       ]
-  },
-  {
-    "before": [
+    },
+    {
+      "before": [
         "leader",
         "d"
       ],
-    "commands": [
-      "editor.action.showHover"
+      "commands": [
+        "editor.action.showHover"
       ],
-  },
-
+    },
   ],
   "workbench.activityBar.location": "hidden",
   "clangd.path": "/home/daniel/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",

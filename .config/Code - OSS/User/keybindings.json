@@ -2,8 +2,16 @@
 [
   {
     "key": "ctrl+q",
-    "command": "toggleVim",
-    "when": "editorTextFocus"
+    "command": "runCommands",
+    "when": "editorTextFocus",
+    "args": {
+      "commands" : [
+        "toggleVim",
+        "notebook.toggleLineNumbers"
+      ]
+      
+    }
+
   },
   {
     "key": "ctrl+w",
