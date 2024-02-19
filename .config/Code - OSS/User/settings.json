@@ -142,4 +142,5 @@
   ],
   "workbench.activityBar.location": "hidden",
   "clangd.path": "/home/daniel/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",
+  "notebook.lineNumbers": "on",
 }

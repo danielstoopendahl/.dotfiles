@@ -23,7 +23,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-eval "$(zoxide init zsh)"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 path+=('/home/daniel/.config/emacs/bin')
@@ -117,3 +116,4 @@ cs() { builtin cd "$@" && ls; }
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init zsh)"
