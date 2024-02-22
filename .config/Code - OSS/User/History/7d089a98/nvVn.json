@@ -1,9 +1,0 @@
-{
-    "launch": {
-
-        "configurations": [],
-        "compounds": []
-    },
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "workbench.colorTheme": "Default High Contrast"
-}
