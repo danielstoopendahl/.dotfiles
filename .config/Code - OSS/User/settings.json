@@ -31,7 +31,18 @@
       "after": [
         "<Esc>"
       ]
-    }
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
   ],
   "vim.highlightedyank.enable": true,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -142,6 +153,8 @@
   ],
   "workbench.activityBar.location": "hidden",
   "clangd.path": "/home/daniel/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",
-  "notebook.lineNumbers": "on",
   "redhat.telemetry.enabled": false,
+  "codeium.enableConfig": {
+    "*": true
+  },
 }

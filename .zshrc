@@ -108,12 +108,15 @@ alias v="nvim"
 alias vi="nvim"
 alias vim"nvim" 
 
+alias code="code-oss"
+
 alias tmux="tmux new-session -A -s Main"
 alias t="tmux new-session -A -s Main"
 
 cs() { builtin cd "$@" && ls; }
+z() { __zoxide_zi "$@" && ls; }
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --no-cmd zsh)"

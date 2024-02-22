@@ -5,13 +5,11 @@
     "command": "runCommands",
     "when": "editorTextFocus",
     "args": {
-      "commands" : [
+      "commands": [
         "toggleVim",
         "notebook.toggleLineNumbers"
       ]
-      
     }
-
   },
   {
     "key": "ctrl+w",
@@ -108,6 +106,18 @@
     "key": "ctrl+t",
     "command": "workbench.action.terminal.new"
   },
-  
-
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.action.inlineSuggest.commit",
+    "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "codeium.toggleEnable"
+  },
 ]
