@@ -21,4 +21,6 @@ Doom
 
 Tmux
 
+TPM
+
 OSS Code
