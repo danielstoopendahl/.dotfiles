@@ -91,6 +91,8 @@
 ;; Save session
 (desktop-save-mode 1)
 
+(global-whitespace-mode -1)
+
 ;; set transparency
 (set-frame-parameter (selected-frame) 'alpha '(90 90))
 (add-to-list 'default-frame-alist '(alpha 90 90))
