@@ -157,4 +157,5 @@
     "*": true
   },
   "explorer.confirmDelete": false,
+  "codeium.enableCodeLens": false,
 }
