@@ -104,3 +104,7 @@
 
 ;; Disable Close Prompt
 (setq confirm-kill-emacs nil)
+
+(map! :leader
+      :desc "Calendar"
+      "o a c" #'cfw:open-org-calendar)
