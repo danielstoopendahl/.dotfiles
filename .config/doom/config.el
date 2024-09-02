@@ -100,7 +100,7 @@
 ;; Disable menu bar
 (setq default-frame-alist '((undecorated . t)))
 (set-face-attribute 'default nil :height 120)
-
+(setq cfw:display-calendar-holidays nil)
 
 ;; Disable Close Prompt
 (setq confirm-kill-emacs nil)
