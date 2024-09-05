@@ -110,7 +110,10 @@ alias v="nvim"
 alias vi="nvim"
 alias vim"nvim" 
 
-alias code="code-oss"
+# alias code="code-oss"
+
+alias emacs="flatpak run org.gnu.emacs"
+alias brave="flatpak run com.brave.Browser"
 
 alias t="tmux new-session -A -s Main"
 
@@ -119,21 +122,22 @@ z() { __zoxide_zi "$@" && ls; }
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-eval "$(zoxide init --no-cmd zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/daniel/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/daniel/programming/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/daniel/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/daniel/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/daniel/programming/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/daniel/programming/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/daniel/anaconda3/bin:$PATH"
+        export PATH="/home/daniel/programming/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Must be on bottom
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init --no-cmd zsh)"
