@@ -28,6 +28,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 path+=('/home/daniel/.config/emacs/bin')
 path+=('/opt/nvim-linux64/bin')
 path+=('/opt/apache-maven-3.9.6/bin/')
+path+=('/home/daniel/.local/bin')
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -112,7 +113,6 @@ alias vim"nvim"
 
 # alias code="code-oss"
 
-alias emacs="flatpak run org.gnu.emacs"
 alias brave="flatpak run com.brave.Browser"
 
 alias t="tmux new-session -A -s Main"

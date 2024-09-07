@@ -159,4 +159,5 @@
   "explorer.confirmDelete": false,
   "codeium.enableCodeLens": false,
   "python.condaPath": "/home/daniel/anaconda3/bin/conda",
+  "git.autofetch": true,
 }
