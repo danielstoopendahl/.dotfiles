@@ -2,14 +2,8 @@
 [
   {
     "key": "ctrl+q",
-    "command": "runCommands",
-    "when": "editorTextFocus",
-    "args": {
-      "commands": [
-        "toggleVim",
-        "notebook.toggleLineNumbers"
-      ]
-    }
+    "command": "toggleVim",
+    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+w",
@@ -119,5 +113,9 @@
   {
     "key": "ctrl+b",
     "command": "codeium.toggleEnable"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
   },
 ]
