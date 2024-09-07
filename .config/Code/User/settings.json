@@ -4,7 +4,6 @@
     "compounds": []
   },
   "editor.formatOnSave": true,
-  "editor.lineNumbers": "relative",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
