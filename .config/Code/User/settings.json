@@ -159,4 +159,7 @@
   "codeium.enableCodeLens": false,
   "python.condaPath": "/home/daniel/anaconda3/bin/conda",
   "git.autofetch": true,
+  "vim.disableExtension": true,
+  "jupyter.askForKernelRestart": false,
+  "php.validate.executablePath": "",
 }

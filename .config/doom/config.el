@@ -90,6 +90,7 @@
 
 ;; Save session
 (desktop-save-mode 1)
+(setq desktop-save 'if-exists)
 
 (global-whitespace-mode -1)
 

@@ -29,6 +29,8 @@ path+=('/home/daniel/.config/emacs/bin')
 path+=('/opt/nvim-linux64/bin')
 path+=('/opt/apache-maven-3.9.6/bin/')
 path+=('/home/daniel/.local/bin')
+path+=('/usr/local/MATLAB/R2024b/bin')
+path+=('/usr/local/go/bin')
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
