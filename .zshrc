@@ -118,6 +118,7 @@ alias vim"nvim"
 alias brave="flatpak run com.brave.Browser"
 
 alias t="tmux new-session -A -s Main"
+alias update="sudo apt update && sudo apt upgrade && flatpak update -y && flatpak remove --unused -y"
 
 cs() { builtin cd "$@" && ls; }
 z() { __zoxide_zi "$@" && ls; }
@@ -143,3 +144,7 @@ unset __conda_setup
 # Must be on bottom
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --no-cmd zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

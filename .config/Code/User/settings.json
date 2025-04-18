@@ -8,7 +8,6 @@
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
-  "workbench.colorTheme": "Default Dark+",
   "window.titleBarStyle": "custom",
   "git.openRepositoryInParentFolders": "never",
   "files.autoSave": "afterDelay",
@@ -162,4 +161,14 @@
   "vim.disableExtension": true,
   "jupyter.askForKernelRestart": false,
   "php.validate.executablePath": "",
+  "terminal.integrated.inheritEnv": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": true
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "workbench.colorTheme": "Default Dark+",
 }
