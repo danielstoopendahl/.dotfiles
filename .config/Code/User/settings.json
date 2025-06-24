@@ -163,12 +163,18 @@
   "php.validate.executablePath": "",
   "terminal.integrated.inheritEnv": false,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
-    "python": true
+    "python": false
   },
   "github.copilot.editor.enableAutoCompletions": false,
   "workbench.colorTheme": "Default Dark+",
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
 }
